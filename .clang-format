@@ -1,0 +1,62 @@
+BasedOnStyle: Google
+
+# Indentation and Alignment
+IndentWidth: 4 # 4 spaces per indentation level
+TabWidth: 4 # Tabs equivalent to 4 spaces
+UseTab: Never # Use spaces, not tabs
+IndentCaseLabels: true # Indent case labels in switch statements
+AlignAfterOpenBracket: Align
+AlignOperands: true
+
+# Line Breaks and Spacing
+ColumnLimit: 100 # Max line length
+MaxEmptyLinesToKeep: 1 # Remove extra empty lines
+SeparateDefinitionBlocks: Always
+EmptyLineBeforeAccessModifier: LogicalBlock
+KeepEmptyLinesAtTheStartOfBlocks: true # Keep empty lines
+BreakBeforeBraces: Attach # Attach style for braces
+BraceWrapping:
+  AfterFunction: true
+  AfterControlStatement: true
+  BeforeElse: true
+SpaceBeforeParens: ControlStatements # Space before parentheses for control statements
+SpacesInParentheses: false # No spaces inside parentheses
+SpacesInSquareBrackets: false # No spaces inside square brackets
+
+# Control Structures and Functions
+AllowShortFunctionsOnASingleLine: false
+AllowShortBlocksOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+BreakConstructorInitializers: AfterColon
+
+# Alignment
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+AlignTrailingComments: true
+AlignEscapedNewlines: Left
+
+# Pointer and Variable Declarations
+PointerAlignment: Left
+
+# Miscellaneous
+ReflowComments: true
+SortIncludes: true
+IncludeBlocks: Preserve
+IndentExternBlock: true
+AlwaysBreakAfterReturnType: None
+AlwaysBreakBeforeMultilineStrings: true
+BinPackArguments: true
+BinPackParameters: true
+BreakBeforeBinaryOperators: All
+BreakStringLiterals: true
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+Cpp11BracedListStyle: true
+Standard: Cpp11
+SpaceAfterCStyleCast: false
+# Penalty Settings
+PenaltyBreakBeforeFirstCallParameter: 150
+PenaltyBreakComment: 100
+PenaltyBreakString: 100
+PenaltyExcessCharacter: 1000000
+PenaltyReturnTypeOnItsOwnLine: 200
