@@ -1,24 +1,24 @@
 #include <stdio.h>
 
 int main() {
-    printf("Hello World!!!\n");
+      printf("Hello World!!!\n");
     // Your code here
     int x;
-    printf("Enter a number: \n");
-    scanf("%d", &x);
+      printf("Enter a number: \n");
+      scanf("%d", &x);
 
     switch (x) {
         case 1:
-            printf("One\n");
+              printf("One\n");
             break;
         case 2:
-            printf("Two\n");
+              printf("Two\n");
             break;
         case 3:
-            printf("Three\n");
+              printf("Three\n");
             break;
         default:
-            printf("Invalid number\n");
+              printf("Invalid number\n");
     }
     return 0;
 }

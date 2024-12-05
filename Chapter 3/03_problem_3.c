@@ -15,7 +15,7 @@ int main() {
           printf("You have to pay at least 5 percent tax \n");
 
     } else if (income >= 500000 && income < 1000000) {
-        float tax = 0.05 *(500000-250000)  + 0.1 * (income - 500000);
+        float tax = 0.05 * (500000 - 250000) + 0.1 * (income - 500000);
           printf("You have to pay at least 10 percent tax \n");
           printf("Which is %.2f in tax \n", tax);
 

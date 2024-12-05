@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    printf("Hello Tohir!!!\n");
+      printf("Hello Tohir!!!\n");
     // Your code here
     int marks;
-    printf("Enter your marks: \n");
-    scanf("%d", &marks);
+      printf("Enter your marks: \n");
+      scanf("%d", &marks);
 
     char grade;
     if (marks > 100) {
-        printf("Invalid marks\n");
+          printf("Invalid marks\n");
     } else if (marks >= 90) {
         grade = 'A';
     } else if (marks >= 80 && marks < 90) {
@@ -21,6 +21,6 @@ int main() {
     } else {
         grade = 'F';
     }
-    printf("Your grade is: %c\n", grade);
+      printf("Your grade is: %c\n", grade);
     return 0;
 }
